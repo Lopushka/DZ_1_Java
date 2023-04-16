@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class EX_4 {
     public static void main(String[] args) {
         Scanner iScanner = new Scanner(System.in);
-        System.out.print("Введите первыю цифру првого числа: ");
+        System.out.print("Введите первую цифру првого числа: ");
         int x = iScanner.nextInt();
         System.out.print("Введите вторую цифру второго числа: ");
         int y = iScanner.nextInt();
