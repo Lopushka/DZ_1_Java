@@ -5,9 +5,9 @@ import java.util.Scanner;
 public class EX_4 {
     public static void main(String[] args) {
         Scanner iScanner = new Scanner(System.in);
-        System.out.print("Введите первыю цифру числа: ");
+        System.out.print("Введите первыю цифру првого числа: ");
         int x = iScanner.nextInt();
-        System.out.print("Введите вторую числа числа: ");
+        System.out.print("Введите вторую цифру второго числа: ");
         int y = iScanner.nextInt();
         System.out.print("Введите результат: ");
         int res = iScanner.nextInt();
