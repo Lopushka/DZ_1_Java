@@ -11,21 +11,22 @@ public class EX_4 {
         int y = iScanner.nextInt();
         System.out.print("Введите результат: ");
         int res = iScanner.nextInt();
-        int res_1 = 0, i = 0, j = 0;
+        int res_1 = 0, i = 0, j = 0, exit = 0;
         System.out.println("Вид уравнения: " + x + "?" + " + " + "?" + y + " = " + res);
         iScanner.close();
+        System.out.println("Варианты решений: ");
         for (i = x * 10; i < 100; i++) {
             for (j = y + 10; j < 100; j += 10) {
                 res_1 = i + j;
                 if (res_1 == res) {
-                    System.out.print("ответ: " + i + " + " + j + " = " + res);
-                    System.exit(0);;
+                    System.out.println(i + " + " + j + " = " + res);
+                    exit++;
                 }
 
             }
         }
-        if (res_1 != res) {
-        System.out.println("Решений нет!");
+        if (exit == 0) {
+            System.out.println("Решений нет!");
         }
     }
 
