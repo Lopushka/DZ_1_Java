@@ -28,10 +28,12 @@ public class EX_3 {
 
             default:
                 System.out.println("Ведите правильно действие(+,-,*,/)");
+                iScanner.close();
                 return;
+                
 
         }
         System.out.println("Ответ: " + numder1 + " " + oper + " " + numder2 + "=" + ans);
-        
+        iScanner.close();
     }
 }
