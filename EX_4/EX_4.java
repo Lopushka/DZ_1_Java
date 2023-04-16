@@ -19,7 +19,7 @@ public class EX_4 {
                 res_1 = i + j;
                 if (res_1 == res) {
                     System.out.print("ответ: " + i + " + " + j + " = " + res);
-                    return;
+                    System.exit(0);;
                 }
 
             }
